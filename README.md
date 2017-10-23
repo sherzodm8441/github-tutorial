@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+_by Sherzod Mirsharipov_
 
 ---
 ## Git vs. GitHub  
@@ -17,7 +17,7 @@ _by <your-name-here>_
  * Go to c9, gear-icon/SSH keys, copy the 2nd code and paste in Github and click Add SHH Key
  * To check if you did everything right, enter this command, `ssh -T git@github.com`, into the terminal
  * You should get the following message, `Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.`
- * (Creating a SSH Key connection is a one time process.)
+ * (Creating a SSH Key connection is a one time process)
 
 
 
