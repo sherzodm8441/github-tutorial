@@ -12,7 +12,8 @@ _by Sherzod Mirsharipov_
 ---
 ## Getting Started
  * To use Github, first you need to [_create a Github account_](https://github.com/)
- * If you are using C9, after signing into Github, go to top-right/profile/settings
+ * If you don't want to download c9 to your computer, you can sign up with [c9](https://c9.io). c9 is a program where git is already built in, and you can you use it on any device because it is on a website. However, when you download git to your computer, you can only access your local repositories on  device.
+ * If you are using c9, after signing into Github, go to top-right/profile/settings
  * Now click on SSH and GPG keys and click on New SSH key
  * Go to c9, gear-icon/SSH keys, copy the 2nd code and paste in Github and click Add SHH Key
  * To check if you did everything right, enter this command, `ssh -T git@github.com`, into the terminal
@@ -23,7 +24,7 @@ _by Sherzod Mirsharipov_
 
 ---
 ## Repository Setup
- *  Make a folder and go into that folder.
+ *  Make a folder and go into that folder. In order to create a folder, type `mkdir`, space, then type the name you want.
  *  Type in `git init` into the terminal and now this directory is a local repository
  *  Create a file and make changes
  *  Let's create a readme file as an example. So, type `touch README.md` and type `c9 README.md` to open the file. Feel free to add anything to it.
@@ -45,7 +46,7 @@ _by Sherzod Mirsharipov_
 ## Workflow & Commands
  * After making changes to your file, type in `git status` into the terminal. It will show the name of the file either in red or green. Red means that the changes have not been added to the staging area and green means that they have been added to the staging area and are ready to be committed.
  * If the writing is in red, go ahead and type in `git add` followed by the file name into the terminal
- * Then type in `git commit -m "  "` with a commit message between the quotation marks
+ * Then type in `git commit -m "  "` with a commit message between the quotation marks. It is also important to note that present tense should be used
  * Now do `git push` to send your commits up to your remote repository
  * If an error comes up while doing any one of these processes, there is a  chance that your issue will be solved be doing `git status`
 
@@ -66,7 +67,7 @@ _by Sherzod Mirsharipov_
  * `git reset --hard HEAD~1` undoes the last commit, unstages the file and deletes the changes 
 
 ### PUSH
- `git revert <commit ID>`
+ `git revert <commit ID>`(SAY WHERE DO YOU FIND YOUR COMMIT ID)
  
 ---
  ## Error Handling
