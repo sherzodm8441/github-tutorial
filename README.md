@@ -12,7 +12,7 @@ _by Sherzod Mirsharipov_
 ---
 ## Getting Started
  * To use Github, first you need to [_create a Github account_](https://github.com/)
- * If you don't want to download c9 to your computer, you can sign up with [c9](https://c9.io). c9 is a program where git is already built in, and you can you use it on any device because it is on a website. However, when you download git to your computer, you can only access your local repositories on  device.
+ * If you don't want to download git to your computer, you can sign up with [c9](https://c9.io). c9 is a program where git is already built in, and you can you use it on any device because it is on a website. However, when you download git to your computer, you can only access your local repositories on  device.
  * If you are using c9, after signing into Github, go to top-right/profile/settings
  * Now click on SSH and GPG keys and click on New SSH key
  * Go to c9, gear-icon/SSH keys, copy the 2nd code and paste in Github and click Add SHH Key
