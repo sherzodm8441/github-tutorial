@@ -3,7 +3,8 @@
 _by Sherzod Mirsharipov_
 
 ---
-## Git vs. GitHub  
+## Git vs. GitHub
+![alt text](http://ajmers.github.io/gdi-git-intro/images/git-vs-github.png)  
  **Git** is a version control program which is designed to keep track of different versions of your files and makes it easier for multiple people to work the same project at the same time.  Git can be installed on your local machine and different versions of your files live there. But others can't access your files and that's where Github comes in. **Github** is a website which requires Git to operate and stores your files in remote repositories so that **anybody** can access them at **any time**, from **any place**.
  
 
@@ -67,9 +68,22 @@ _by Sherzod Mirsharipov_
  * `git reset --hard HEAD~1` undoes the last commit, unstages the file and deletes the changes 
 
 ### PUSH
- `git revert <commit ID>`(SAY WHERE DO YOU FIND YOUR COMMIT ID)
+ To undo a pushed commit
+ * go to your remote repository, click on commits, and copy the commit ID
+ * go back to c9, type in `git revert` followed by the commit ID, (if you wanna go back 3 commits repeat this process 3 times) then type in `git push`
+ * this will revert your file to the previous commit by creating a new commit without deleting history, `git reset --hard commitID` and `git push origin +master` also undo pushed commits (not recommended) but they completely delete the commits you select and the history.
+
  
 ---
  ## Error Handling
   * If you did `git init` in the wrong directory all you have to do is `rm -rf .git` this removes the file `.git/` which is created by doing `git init`
   * If you want to remove your local repository, `cd ..` out of that file and type in `rm -rf repositoryname` this repo is now gone but a copy of it lives on Github, to delete that go to Github.com/profile/repositories/the-repo-you-want-to-delete/settings/down/danger-zone/delete-this-repo and type in the exact name of the repo
+  
+## Collaboration
+ If you want to build off of somebody else's code,
+ * Go to their repo on Github, click "Fork" right below the profile icon, now the repo has been copied to your profile
+ * Now click on "Clone or Download" and copy the link
+ * Go to c9 and type `git clone` followed by the link, now you can make changes to it and stage, commit and push them
+ * If you want to suggest your changes to the original creator, right above the code click the "New Pull Request" icon and proceed with the steps it shows you
+ * Your pull request can either be accepted or denied by the creator
+ 
