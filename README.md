@@ -77,13 +77,13 @@ _by Sherzod Mirsharipov_
 
  
 ---
- ## Error Handling
+## Error Handling
   * If you did `git init` in the wrong directory all you have to do is `rm -rf .git` this removes the file `.git/` which is created by doing `git init`  
   * If you want to remove your local repository, `cd ..` out of that file and type in `rm -rf repositoryname` this repo is now gone but a copy of it lives on Github, to delete that go to Github.com/profile/repositories/the-repo-you-want-to-delete/settings/down/danger-zone/delete-this-repo and type in the exact name of the repo.  
   
 
 ---
- ## Collaboration
+## Collaboration  
  If you want to build off of somebody else's code,
  * Go to their repo on Github, click "Fork" right below the profile icon, now the repo has been copied to your profile
  * Now click on "Clone or Download" and copy the link
