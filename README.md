@@ -86,4 +86,5 @@ _by Sherzod Mirsharipov_
  * Go to c9 and type `git clone` followed by the link, now you can make changes to it and stage, commit and push them
  * If you want to suggest your changes to the original creator, right above the code click the "New Pull Request" icon and proceed with the steps it shows you
  * Your pull request can either be accepted or denied by the creator
+ * If you ever accept a Pull Request that someone has sent you, the Pull Request will only make changes to your remote repository. To bring the changes to your local repository, go to C9 and `cd` into the appropriate folder and type `git pull` into the terminal and now you're all set
  
